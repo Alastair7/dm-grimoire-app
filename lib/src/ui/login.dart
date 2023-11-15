@@ -29,6 +29,12 @@ class LoginScreen extends StatelessWidget {
                 border: OutlineInputBorder(),
               ),
             ),
+            TextButton(
+              child: const Text('Forgot your username?'),
+              onPressed: () {
+                // TODO: Implement username recovery logic
+              },
+            ),
             const SizedBox(height: 8.0),
             const TextField(
               obscureText: true,
@@ -37,23 +43,17 @@ class LoginScreen extends StatelessWidget {
                 border: OutlineInputBorder(),
               ),
             ),
+            TextButton(
+              child: const Text('Forgot your password?'),
+              onPressed: () {
+                // TODO: Implement password recovery logic
+              },
+            ),
             const SizedBox(height: 24.0),
             ElevatedButton(
               child: const Text('Login'),
               onPressed: () {
-                // Implement login logic
-              },
-            ),
-            TextButton(
-              child: const Text('Forgot your password?'),
-              onPressed: () {
-                // Implement password recovery logic
-              },
-            ),
-            TextButton(
-              child: const Text('Forgot your username?'),
-              onPressed: () {
-                // Implement username recovery logic
+                // TODO: Implement login logic
               },
             ),
             const SizedBox(height: 8.0),
