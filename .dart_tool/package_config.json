@@ -62,10 +62,28 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///C:/src/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "go_router",
+      "rootUri": "file:///C:/Users/Senka/AppData/Local/Pub/Cache/hosted/pub.dev/go_router-5.2.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "lints",
       "rootUri": "file:///C:/Users/Senka/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "logging",
+      "rootUri": "file:///C:/Users/Senka/AppData/Local/Pub/Cache/hosted/pub.dev/logging-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "matcher",
@@ -152,7 +170,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-11-15T17:14:37.763833Z",
+  "generated": "2024-02-10T19:09:59.964614Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }
